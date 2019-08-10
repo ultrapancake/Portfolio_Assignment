@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/gravel.png");
+    margin: 0 auto;
+    padding-bottom: 50px;
+    line-height: 150%;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 24px;
+}
+
+#content{
+    width: 970px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px 5px 10px 5px;
+    height: 0 auto;
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #777777;
+}
+
+#menu{
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    text-align: center;
+    vertical-align: center;
+    padding: 5px 5px 0px 5px;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+#link_bar{
+    float: right;
+    text-align: right;
+    vertical-align: center;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#link_contact, #link_about{
+    margin-right: 2.5px;
+    border-right: 1px solid #777777;
+    padding-right: 5px;
+}
+
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#link_contact, #link_about, #link_portfolio{
+    color: #777777;
+    text-decoration: none;
+}
+
+#link_contact:hover, #link_about:hover, #link_portfolio:hover{
+    color: red;
+    text-decoration: none;
+}
