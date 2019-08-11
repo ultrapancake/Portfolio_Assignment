@@ -124,18 +124,20 @@ input, textarea{
     width: 960px;
 }
 
-button{
+#submit{
     text-decoration: none;
     border: none;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 10px;
     color: #ffffff;
+    width: 125px;
 }
 
-button:hover{
+#submit:hover{
     border-top: 1px solid red;
     border-left: 1px solid red;
+    cursor: pointer;
 }
 
 /* Portfolio Page */
