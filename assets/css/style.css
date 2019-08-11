@@ -49,7 +49,7 @@ h1{
     width: 125px;
     text-align: center;
     vertical-align: center;
-    padding: 5px 5px 0px 5px;
+    padding: 10px 5px 10px 5px;
     height: 100%;
     float: left;
     margin: 0 auto;
@@ -61,6 +61,7 @@ h1{
     vertical-align: center;
     height: 100%;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 #link_contact, #link_about{
@@ -83,4 +84,34 @@ header::after{
 #link_contact:hover, #link_about:hover, #link_portfolio:hover{
     color: red;
     text-decoration: none;
+}
+
+#profile_picture{
+    width: 200px;
+    height: 200px;
+    margin: 0px 20px 20px 0px;
+}
+
+.about_p{
+    width: 960px;
+    font-size: 14px;
+}
+
+#profile_picture{
+    float: left;
+}
+
+#content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h4{
+    color: #777777;
+    font-size: 20px;
+}
+
+input, textarea{
+    width: 960px;
 }
