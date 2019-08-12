@@ -159,6 +159,7 @@ input, textarea{
 .img_portfolio{
     width: 200px;
     height: 200px;
+    z-index: 1;
 }
 
 .span_portfolio{
@@ -172,6 +173,7 @@ input, textarea{
     font-size: 20px;
     text-align: center;
     vertical-align: center;
+    z-index: 2;
 }
 
 #portfolio_1, #portfolio_2, #portfolio_3, #portfolio_4, #portfolio_5{
