@@ -124,6 +124,10 @@ input, textarea{
     width: 960px;
 }
 
+textarea{
+    resize: vertical;
+}
+
 #submit{
     text-decoration: none;
     border: none;
